@@ -1,4 +1,10 @@
 {
+  "name": "chrome-extension",
+  "version": "1.0.0",
+  "description": "chrome extension test",
+  "scripts": {
+    "build": "tsc scripts/main.ts"
+  },
   "devDependencies": {
     "tslint": "^6.1.3",
     "typescript": "^5.0.2"
