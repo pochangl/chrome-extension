@@ -1,3 +1,3 @@
-import { Number } from './secondary'
+import { Numb } from './secondary'
 
-const number = new Number()
+const numb = new Numb()

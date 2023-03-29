@@ -1,3 +1,1 @@
-console.log('hihi')
-
-export class Number {}
+export class Numb {}
