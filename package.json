@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "chrome extension test",
   "scripts": {
-    "build": "tsc -p tsconfig.json"
+    "build": "npm run lint && npm run compile",
+    "compile": "tsc -p tsconfig.json",
+    "lint": "tslint scripts/**/*.ts"
   },
   "devDependencies": {
     "tslint": "^6.1.3",
