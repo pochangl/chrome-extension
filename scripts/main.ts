@@ -1,9 +1,14 @@
+let selection: string = ''
+let updated = false
 
 document.addEventListener('selectionchange', () => {
-  const selection = getSelection().toString();
-  window.console.log('selected', selection)
+  selection = getSelection().toString()
+  updated = true
 })
 
 document.addEventListener('mouseup', () => {
-  window.console.log('up')
+  if (updated) {
+    alert(`${selection} selected`)
+  }
+  updated = false
 })
