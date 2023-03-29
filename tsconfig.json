@@ -4,9 +4,9 @@
     "target": "ES5",
     "removeComments": true,
     "preserveConstEnums": true,
-    "outDir": "./build",
-    "outFile":"./build/build.js",
-    "sourceRoot": "./src/",
+    "outDir": "./dist",
+    "outFile":"./dist/main.js",
+    "sourceRoot": "./scripts/",
     "rootDir": "./scripts/",
     "sourceMap": true
   }
