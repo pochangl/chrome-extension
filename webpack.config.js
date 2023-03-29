@@ -1,3 +1,4 @@
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 module.exports = {
   entry: './scripts/main.ts',
@@ -18,4 +19,9 @@ module.exports = {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: 'main.html',
+    }),
+  ],
 };

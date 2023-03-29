@@ -10,11 +10,12 @@
     "lint": "tslint scripts/**/*.ts"
   },
   "devDependencies": {
+    "chrome-types": "^0.1.181",
+    "html-webpack-plugin": "^5.5.0",
     "ts-loader": "^9.4.2",
     "tslint": "^6.1.3",
     "typescript": "^5.0.2",
     "webpack": "^5.76.3",
-    "webpack-cli": "^5.0.1",
-    "chrome-types": "^0.1.181"
+    "webpack-cli": "^5.0.1"
   }
 }
