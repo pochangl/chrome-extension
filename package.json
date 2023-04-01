@@ -11,7 +11,10 @@
   },
   "devDependencies": {
     "chrome-types": "^0.1.181",
+    "css-loader": "^6.7.3",
     "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.5",
+    "node-sass": "^8.0.0",
     "sass": "^1.60.0",
     "sass-loader": "^13.2.2",
     "ts-loader": "^9.4.2",

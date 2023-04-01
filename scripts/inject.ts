@@ -1,3 +1,5 @@
+import './inject.sass'
+
 let selection: string = ''
 let updated = false
 
