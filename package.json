@@ -12,6 +12,8 @@
   "devDependencies": {
     "chrome-types": "^0.1.181",
     "html-webpack-plugin": "^5.5.0",
+    "sass": "^1.60.0",
+    "sass-loader": "^13.2.2",
     "ts-loader": "^9.4.2",
     "tslint": "^6.1.3",
     "typescript": "^5.0.2",
